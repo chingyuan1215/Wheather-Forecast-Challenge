@@ -3,7 +3,7 @@
 Project Goal: Use daily weather observation samples for training, and  to predict whether it will rain the next day.
 
 # Steps of Analysis
-#First: Data Preprocessing
+First: Data Preprocessing
   1. Dealing with missing values:
      Used sort_values() to calcluate the amount of missing values in each attribute.I would deal with missing values by filling the average of each        numeric column and filling the most frequent values of each categorical column.
      
@@ -20,7 +20,7 @@ Project Goal: Use daily weather observation samples for training, and  to predic
     This step will modify the outliers in the dataset, I set the upper bound of the data to 75% and the lower bound to 25%. Therefore, if the value is not between 25%~75%, the data with be replaced with its upper or lower limits.
 
   
-#Second: Build Model
+Second: Build Model
   1. Bulid ANN model
     Importing the Keras libraries and packages for building the Neural Network layer by layer. Initializing and adding each layer one by one. After adding the hidden layers, I would adding the output layer. In this projrct we need probabilities of 2 categories, so Sigmoid activation function is used.
   
