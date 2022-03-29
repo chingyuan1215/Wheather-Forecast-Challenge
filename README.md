@@ -22,5 +22,10 @@ Project Goal: Use daily weather observation samples for training, and  to predic
   
 #Second: Build Model
   1. Bulid ANN model
+    Importing the Keras libraries and packages for building the Neural Network layer by layer. Initializing and adding each layer one by one. After adding the hidden layers, I would adding the output layer. In this projrct we need probabilities of 2 categories, so Sigmoid activation function is used.
+  
   2. Train the model
+    Compile the ANN model and fit the ANN to the training set.
+
   3. Predict the result
+     Making the predictions and evaluating the model.
